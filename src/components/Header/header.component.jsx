@@ -13,7 +13,7 @@ const Header = () => (
       TIPS
     </a>
     <a href="#dota" className="header-links header-dota">
-      DOTA
+      GAMING
     </a>
   </div>
 );
