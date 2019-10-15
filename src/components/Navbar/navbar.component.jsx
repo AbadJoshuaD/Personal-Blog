@@ -1,14 +1,26 @@
 import React from "react";
 import "./navbar.styles.scss";
-import { ReactComponent as BrandIcon } from "../../assets/logo.svg";
+import { ReactComponent as BrandLogo } from "../../assets/logo.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => (
   <div className="navbar-container">
-    <BrandIcon></BrandIcon>
+    <BrandLogo class="brand-logo"></BrandLogo>
     <div className="navbar-options">
-      <i className="fa fa-search"></i>
-      <input type="search" name="search" placeholder="Search Blog Post" />
-      <img src="" alt="user-img" />
+      <FontAwesomeIcon
+        className="navbar-option nav-search-icon"
+        icon={faSearch}
+      />
+      <input
+        className="navbar-option nav-search"
+        type="search"
+        name="search"
+        placeholder="Search Josh Blog Post"
+      />
+      <a className="navbar-option nav-sign-in" href="#">
+        Sign In
+      </a>
     </div>
   </div>
 );
