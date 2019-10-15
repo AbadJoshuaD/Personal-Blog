@@ -23,9 +23,12 @@
       color: black;
     }
     .nav-search {
+      display: inline-block;
       padding-top: 2.5px;
       border: none;
+      position: relative;
     }
+
     .nav-sign-in {
       font-size: 16px;
     }
