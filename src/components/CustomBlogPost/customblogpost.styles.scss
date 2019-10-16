@@ -9,14 +9,14 @@
     margin-bottom: 40px;
   }
   .custom-blog-post {
-    .title {
+    .blog-title {
       font-size: 24px;
       padding-bottom: 10px;
     }
-    .description {
+    .blog-description {
       padding-bottom: 10px;
     }
-    .profile-img {
+    .blog-profile-img {
       display: none;
     }
   }
@@ -34,14 +34,14 @@
   .custom-blog-post {
     display: flex;
     flex-direction: column;
-    .title {
+    .blog-title {
       font-size: 18px;
       padding-bottom: 10px;
     }
-    .description {
+    .blog-description {
       padding-bottom: 10px;
     }
-    .profile-img {
+    .blog-profile-img {
       display: none;
     }
   }
@@ -60,14 +60,14 @@
   .custom-blog-post {
     display: flex;
     flex-direction: column;
-    .title {
+    .blog-title {
       font-size: 18px;
       padding-bottom: 10px;
     }
-    .description {
+    .blog-description {
       padding-bottom: 10px;
     }
-    .profile-img {
+    .blog-profile-img {
       display: none;
     }
   }
@@ -81,15 +81,115 @@
     display: none;
   }
   .custom-blog-post {
-    .title {
+    .blog-title {
       font-size: 18px;
       padding-bottom: 10px;
     }
-    .description {
+    .blog-description {
       display: none;
     }
-    .profile-img {
+    .blog-profile-img {
       display: none;
+    }
+  }
+}
+
+/* Main Content Blog Custom Style */
+.tech-main-content-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  .custom-img {
+    width: 640px;
+    height: 340px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .custom-blog-post {
+    .blog-title {
+      font-size: 28px;
+      padding-bottom: 10px;
+    }
+    .blog-description {
+      padding-bottom: 20px;
+    }
+    .blog-author-info {
+      .blog-author {
+        .blog-profile-img {
+          border: 1px solid black;
+          border-radius: 50%;
+          width: 45px;
+          height: 43px;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+/* Latest Blog Category Custom Style */
+.tech-latest-content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+
+  .custom-img {
+    width: 150px;
+    height: 110px;
+  }
+  .custom-blog-post {
+    .blog-title {
+      font-size: 18px;
+      padding-bottom: 5px;
+    }
+    .blog-description {
+      font-size: 14px;
+      padding-bottom: 5px;
+    }
+    .blog-author-info {
+      .blog-author {
+        font-size: 14px;
+        .blog-profile-img {
+          display: none;
+        }
+      }
+      .blog-date {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* Latest Popular Custom Style */
+.tech-popular-content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+
+  .custom-img {
+    align-self: center;
+    width: 55px;
+    height: 55px;
+  }
+  .custom-blog-post {
+    .blog-title {
+      font-size: 14px;
+      padding-bottom: 5px;
+    }
+    .blog-description {
+      display: none;
+    }
+    .blog-author-info {
+      .blog-author {
+        font-size: 12px;
+        .blog-profile-img {
+          display: none;
+        }
+      }
+      .blog-date {
+        font-size: 12px;
+      }
     }
   }
 }

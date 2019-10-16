@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  border-bottom: 2px solid #545454;
+  padding-bottom: 20px;
   .header-title {
     font-size: 24px;
   }
@@ -12,5 +14,21 @@
   }
   .header-more:hover {
     border-bottom: 1px solid black;
+  }
+}
+
+.header-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #545454;
+  padding-bottom: 5px;
+  .header-title {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .header-more {
+    display: none;
   }
 }
