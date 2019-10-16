@@ -1,0 +1,36 @@
+.popular-blog-container {
+  .popular-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .popular-title {
+      font-size: 24px;
+    }
+    .popular-more {
+      cursor: pointer;
+    }
+    .popular-more:hover {
+      border-bottom: 1px solid black;
+    }
+  }
+  .popular-blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    .popular-rank-circle {
+      font-size: 32px;
+      margin-right: 20px;
+    }
+    .popular-blog-content {
+      display: flex;
+      flex-direction: column;
+      .popular-blog-content-title {
+        font-size: 18px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
