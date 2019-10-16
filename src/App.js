@@ -4,7 +4,7 @@ import "typeface-noto-serif-sc";
 import Navbar from "./components/Navbar/navbar.component";
 import Header from "./components/Header/header.component";
 import LatestBlog from "./components/LatestBlog/latestblog.component";
-import CategoryBlog from "./components/CategoryBlog/categoryblog.component";
+import CategoryPopularBlogContainer from "./components/CategoryPopularBlogContainer/categorypopularblogcontainer.component";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Header></Header>
       <LatestBlog></LatestBlog>
-      <CategoryBlog></CategoryBlog>
+      <CategoryPopularBlogContainer></CategoryPopularBlogContainer>
     </Fragment>
   );
 }

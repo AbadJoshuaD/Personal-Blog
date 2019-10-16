@@ -3,7 +3,7 @@ import "../CategoryBlog/categoryblog.styles.scss";
 
 const CategoryBlog = () => (
   <div className="category-blog-container">
-    <div className="category-header">
+    <div className="category-header-container">
       <h1 className="category-title">Technology</h1>
       <a className="category-more">More ></a>
     </div>

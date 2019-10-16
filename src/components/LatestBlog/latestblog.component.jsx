@@ -2,7 +2,7 @@ import React from "react";
 import "../LatestBlog/latestblog.styles.scss";
 
 const LatestBlog = () => (
-  <div className="latest-blog-container shadow-effect">
+  <div className="latest-blog-container">
     <div className="latest-blog main-blog">
       <div className="blog-container">
         <img
