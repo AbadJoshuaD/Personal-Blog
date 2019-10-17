@@ -1,0 +1,11 @@
+.gaming-page-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1048px;
+  margin: 20px auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+  .gaming-main-blog-content-container {
+    grid-column: 1/4;
+  }
+}

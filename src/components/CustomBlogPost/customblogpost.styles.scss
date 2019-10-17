@@ -3,9 +3,8 @@
   display: flex;
   flex-direction: column;
   .custom-img {
-    align-self: center;
     width: 500px;
-    height: 200px;
+    height: 250px;
     margin-bottom: 40px;
   }
   .custom-blog-post {
@@ -273,29 +272,68 @@
   }
 }
 
-/* Tips Sub Main Blog Custom Style */
-.tips-semi-main-content-container {
+/* Gaming Main Blog Custom Style */
+.gaming-main-blog-content-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  .custom-img {
+    width: 756px;
+    height: 360px;
+    align-self: center;
+    padding-bottom: 20px;
+  }
+  .custom-blog-post {
+    .blog-title {
+      font-size: 32px;
+      padding-bottom: 10px;
+    }
+    .blog-description {
+      font-size: 20px;
+      padding-bottom: 20px;
+    }
+    .blog-author-info {
+      .blog-author {
+        font-size: 16px;
+        .blog-profile-img {
+          border: 1px solid black;
+          border-radius: 50%;
+          width: 55px;
+          height: 50px;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+      .blog-date {
+        font-size: 16px;
+      }
+    }
+  }
+}
 
+/* Gaming Sub Blog Custom Style */
+.gaming-sub-blog-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
   .custom-img {
     align-self: center;
     width: 500px;
     height: 275px;
+    padding-bottom: 20px;
   }
   .custom-blog-post {
     .blog-title {
-      font-size: 18px;
+      font-size: 24px;
       padding-bottom: 10px;
     }
     .blog-description {
-      font-size: 14px;
-      padding-bottom: 10px;
+      font-size: 18px;
+      padding-bottom: 20px;
     }
     .blog-author-info {
       .blog-author {
-        font-size: 12px;
+        font-size: 14px;
         .blog-profile-img {
           border: 1px solid black;
           border-radius: 50%;
@@ -306,7 +344,7 @@
         }
       }
       .blog-date {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   }

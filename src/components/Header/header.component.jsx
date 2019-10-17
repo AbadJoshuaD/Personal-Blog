@@ -13,8 +13,11 @@ const Header = () => (
     <Link to="/tips" className="header-links header-tips">
       TIPS
     </Link>
-    <Link to="/dota" className="header-links header-dota">
+    <Link to="/gaming" className="header-links header-dota">
       GAMING
+    </Link>
+    <Link to="/aboutme" className="header-links header-aboutme">
+      ABOUT
     </Link>
   </div>
 );

@@ -7,6 +7,7 @@ import HomePage from "./pages/Home/home.component";
 import TechPage from "./pages/Tech/tech.component";
 import TipsPage from "./pages/Tips/tips.component";
 import GamingPage from "./pages/Gaming/gaming.component";
+import AboutMePage from "./pages/AboutMe/aboutme.component";
 
 import { Route, Switch } from "react-router";
 function App() {
@@ -18,7 +19,8 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/tech" component={TechPage} />
         <Route path="/tips" component={TipsPage} />
-        <Route path="/Gaming" component={GamingPage} />
+        <Route path="/gaming" component={GamingPage} />
+        <Route exact path="/aboutme" component={AboutMePage} />
       </Switch>
     </Fragment>
   );

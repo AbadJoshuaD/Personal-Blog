@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Serif SC", serif;
+  background: white;
 }
 body {
   margin: 20px 50px 10px 50px;

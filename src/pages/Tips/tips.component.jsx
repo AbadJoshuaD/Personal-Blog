@@ -8,6 +8,18 @@ const TipsPage = () => (
     <CustomBlogPost isTipsSubBlog></CustomBlogPost>
     <CustomBlogPost isTipsSubBlog></CustomBlogPost>
     <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsMainBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsMainBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsMainBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
+    <CustomBlogPost isTipsSubBlog></CustomBlogPost>
   </div>
 );
 

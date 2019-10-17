@@ -1,0 +1,32 @@
+.about-me-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 1048px;
+  margin: 50px auto auto auto;
+  .about-me-page-content-container {
+    display: grid;
+    grid-template-columns: 300px 748px;
+    .about-me-img {
+      width: 200px;
+      height: 200px;
+      border: 3px black solid;
+      border-radius: 50%;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .about-me-titles {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .about-me-contacts {
+      display: block;
+    }
+    .about-me-tech-stack {
+      display: inline-block;
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid black;
+      border-radius: 15%;
+    }
+  }
+}
