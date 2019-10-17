@@ -1,11 +1,11 @@
 import React from "react";
-import "../CustomPage/custompage.styles.scss";
+import "./tech.styles.scss";
 import CustomBlogPost from "../../components/CustomBlogPost/customblogpost.component";
 import CustomTitleHeader from "../../components/CustomTitleHeader/customtitleheader.component";
 import CustomCategoryDescription from "../../components/CustomCategoryDescription/customcategorydescription.component";
 
-const CustomPage = () => (
-  <div className="custom-page-technology">
+const TechPage = () => (
+  <div className="technology-page-container">
     <div className="left">
       <CustomBlogPost isTechMainBlog></CustomBlogPost>
       <CustomTitleHeader isSubtitle title={"latest"}></CustomTitleHeader>
@@ -28,4 +28,4 @@ const CustomPage = () => (
   </div>
 );
 
-export default CustomPage;
+export default TechPage;

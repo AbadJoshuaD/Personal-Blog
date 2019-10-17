@@ -8,7 +8,10 @@ const CustomBlogPost = ({
   isPopularBlog,
   isTechMainBlog,
   isCategoryTechLatest,
-  isPopularTechLatest
+  isPopularTechLatest,
+  isTipsMainBlog,
+  isTipsSemiMainSubBlog,
+  isTipsSubBlog
 }) => (
   <div
     className={`${isLatestMainBlog ? "latest-main-blog-container" : ""}
@@ -17,7 +20,10 @@ const CustomBlogPost = ({
     ${isPopularBlog ? "popular-blog-content-container" : ""}
     ${isTechMainBlog ? "tech-main-content-container" : ""}
     ${isCategoryTechLatest ? "tech-latest-content-container" : ""}
-    ${isPopularTechLatest ? "tech-popular-content-container" : ""} container`}
+    ${isPopularTechLatest ? "tech-popular-content-container" : ""}
+    ${isTipsMainBlog ? "tips-main-content-container" : ""}
+    ${isTipsSemiMainSubBlog ? "tips-semi-main-content-container" : ""}
+    ${isTipsSubBlog ? "tips-sub-content-container" : ""} container`}
   >
     <img
       className="custom-img"

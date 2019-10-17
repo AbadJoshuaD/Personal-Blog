@@ -1,20 +1,21 @@
 import React from "react";
 import "../Header/header.styles.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <div className="header-container">
-    <a href="#home" className="header-links header-home">
+    <Link to="/" className="header-links header-home">
       HOME
-    </a>
-    <a href="#tech" className="header-links header-tech">
+    </Link>
+    <Link to="/tech" className="header-links header-tech">
       TECH
-    </a>
-    <a href="#tips" className="header-links header-tips">
+    </Link>
+    <Link to="/tips" className="header-links header-tips">
       TIPS
-    </a>
-    <a href="#dota" className="header-links header-dota">
+    </Link>
+    <Link to="/dota" className="header-links header-dota">
       GAMING
-    </a>
+    </Link>
   </div>
 );
 
